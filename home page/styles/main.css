@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+@import url('style.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.inner-container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.nav-link {
+    display: flex;
+    padding: 0;
+}
+
+.nav-link .nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #333136;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.main-intro {
+    background-image: url(../img/bakimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 145px 0;
+    position: relative;
+    height: 580px;
+    border-radius: 10px;
+}
+
+.inner-container .main-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    max-width: 540px;
+}
+
+.inner-container .main-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 445px;
+    padding-top: 11px;
+    margin-bottom: 40px;
+}
+
+.learn {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333136;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 16px 25px;
+    border-radius: 8px;
+}
+
+.tellogo {
+    position: absolute;
+    top: 80px;
+    right: 120px;
+    bottom: 0;
+    z-index: 6;
+}
+
+.services {
+    padding: 160px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.object-img {
+    width: 625px;
+    height: 361px;
+}
+
+.object-img img {
+    width: 100%;
+}
+
+.imj {
+    margin-bottom: 20px;
+}
+
+.col-lg-6 .object-imj {
+    width: 622px;
+    height: 743px;
+}
+
+.images {
+    position: relative;
+}
+
+.tekst {
+    position: absolute;
+    bottom: 41%;
+    right: 24%;
+}
+
+.col-lg-6 .main-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+}
+
+.col-lg-6 .main-text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.pas-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #333136;
+    padding-top: 48px;
+}
+
+.book,
+.bok {
+    position: relative;
+}
+
+
+.pas-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333136;
+    padding-top: 32px;
+    max-width: 350px;
+}
+
+.foto {
+    width: 202px;
+    height: 202px;
+    margin: 0 auto;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.features {
+    margin-bottom: 380px;
+}
+
+.features .pas-text {
+    margin-bottom: 0;
+}
+
+.getintouch {
+    background-image: url(../img/bakimgtouch.png);
+    background-repeat: round;
+    padding: 72px 96px;
+}
+
+.getintouch .right-btn {
+    padding-top: 68px;
+    text-align: end;
+}
+
+.getintouch .let-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    max-width: 268px;
+}
+
+.getintouch .let-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 450px;
+    padding-top: 20px;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333136;
+    background-color: #fff;
+    padding: 17px 19px;
+    border-radius: 8px;
+}
+
+.wrepper {
+    position: relative;
+    top: -220px;
+    z-index: 15;
+}
+
+.main-footers {
+    background: #1D1C1E;
+    width: 100%;
+    height: 450px;
+}
+
+.logos {
+    background-color: black;
+}
+
+.text-white {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.loc-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.texts {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    list-style: none;
+    padding: 0;
+}
+
+.scrol {
+    margin-top: 80px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.wrepper .row .col-lg-4 span {
+    color: #E7816B;
+    font-size: 22px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.icon-box .ikom {
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+}
+
+.boxes {
+    padding-top: 72px;
+}
+
+.nav-item:hover {
+    color: #333136;
+}
+
+.loc-text:hover {
+    color: #fff;
+}
+
+.ikom.ikonka:hover {
+    background-color: #FFAD9B;
+}
+
+.btn:hover {
+    background: #FFAD9B;
+}
+
+.learn:hover {
+    background: #FFAD9B;
+    color: #fff;
+}

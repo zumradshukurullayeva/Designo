@@ -1,0 +1,61 @@
+@media (max-width:1199px) {
+    .container {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+}
+
+@media (max-width:991px) {
+    
+}
+
+@media (max-width:767px) {
+    
+}
+
+@media (max-width:565px) {
+    
+}
+
+@media (max-width:480px) {
+    .main-header {
+        width: 652px;
+    }
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .main-intro {
+        width: 652px;
+        height: 843px;
+        padding: 80px 0;
+        overflow: hidden;
+    }
+
+    .main-intro .main-title {
+        max-width: 490px;
+        margin: 0 auto;
+        padding-bottom: 14px;
+    }
+
+    .main-intro .main-text {
+        max-width: 490px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+
+
+    .tellogo {
+        position: absolute;
+        top: 469px;
+        right: 166px;
+        bottom: 0;
+        z-index: 6;
+    }
+
+    .commit {
+        display: flex;
+        justify-content: center;
+    }
+}

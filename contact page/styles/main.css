@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+@import url('style.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.inner-container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.nav-link {
+    display: flex;
+    padding: 0;
+}
+
+.nav-link .nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #333136;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.main-intro {
+    background-image: url(../img/tortbakimg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 0 0 0;
+    position: relative;
+    height:530px;
+}
+
+.textss {
+    padding: 50px 87px 135px 95px;
+}
+
+.textss .main-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.textss .main-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 471px;
+}
+
+.inputs {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px;
+    width: 380px;
+    background: #E7816B;
+    line-height: 3;
+
+}
+
+.inputs::-webkit-input-placeholder {
+    color: pink;
+}
+
+.borders {
+    line-height: 7;
+}
+
+.submit {
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333136;
+    border: none;
+    padding: 17px 47px;
+}
+
+.noun {
+    padding: 160px 0 0 0;
+}
+
+.nouns {
+    text-align: center;
+}
+
+.noun-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #333136;
+    padding: 48px 0 32px 0;
+}
+
+.btn {
+    padding: 14px;
+    background: #E7816B;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buttons {
+    margin-left: 233px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrepper {
+    position: relative;
+    top: -220px;
+    z-index: 15;
+}
+
+.main-footers {
+    background: #1D1C1E;
+    width: 100%;
+    height: 385px;
+    margin-top: 200px;
+}
+
+.logos {
+    background-color: black;
+}
+
+.text-white {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.loc-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.texts {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    list-style: none;
+    padding: 0;
+}
+
+.scrol {
+    margin-top: 80px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.wrepper .row .col-lg-4 span {
+    color: #E7816B;
+    font-size: 22px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.icon-box .ikom {
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+}
+
+.boxes {
+    padding-top: 72px;
+}
+
+.nav-item:hover {
+    color: #333136;
+}
+
+.loc-text:hover {
+    color: #fff;
+}
+
+.ikom.ikonka:hover {
+    background-color: #FFAD9B;
+}
+
+.btn:hover {
+    background: #FFAD9B;
+}
+
+.learn:hover {
+    background: #FFAD9B;
+    color: #fff;
+}
+
+.wreps {
+    padding-top: 245px;
+}
